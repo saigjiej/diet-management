@@ -4,7 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-@EnableJpaAuditing // JPA Auditing 어노테이션 활성화
+// AuditionEntityListener 사용하기 위하여 어플리케이션 구동 클래스에 작성
+@EnableJpaAuditing
 @SpringBootApplication
 public class DietManagementApplication {
 
